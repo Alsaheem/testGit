@@ -1,0 +1,54 @@
+body{
+	background-color: darkblue;
+	font-family: helvetica;
+	font-weight: bold;
+	color: white;
+}
+h2{
+	font-size: 18pt;
+	margin-bottom: 15px
+}
+
+.tile {
+	background-color: #A52A2A;
+	width: 170px;
+	height: 140;
+	padding: 20px;
+	margin: 5px;
+	float: left; 
+
+}
+
+.tile-double{
+	width: 390px;
+	height:140px;
+	margin: 5px;
+	padding: 20px;
+	float: left
+}
+.green{
+	background-color: #13B2A3;
+}
+
+.red{
+	background-color: #F16f51;
+}
+
+.yellow{
+	background-color: #fdb45c;
+}
+
+.lightgrey{
+	background-color: #f6f6f6;
+}
+
+.city-image{
+	background-image:url("wallpaper.jpg");
+}
+
+#main-container {
+	max-width: 1000px;
+	margin: 0 auto;
+
+/*you can also use width */
+}
